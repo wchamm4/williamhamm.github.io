@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--
+      New Perspectives on HTML5 and CSS3, 8th Edition
+      Tutorial 6
+      Review Assignment
+
+      DLR Morning Schedule
+      Author: William Hamm
+      Date:   10/10/2024
+
+      Filename:   dlr_mornings.html
+
+   -->
+   
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>DLR Morning Schedule</title>
+   <link href="dlr_reset2.css" rel="stylesheet" />
+   <link href="dlr_styles2.css" rel="stylesheet" />
+   <link href="dlr_tables2.css" rel="stylesheet" />
+   <link href="dlr_columns2.css" rel="stylesheet" />         
+</head>
+
+<body>
+   <header>
+      <h1>Listener Supported <em>Since</em> 1975</h1>
+      <nav>
+         <a id="navicon" href="#"><img src="dlr_navicon2.png" alt="" /></a>
+         <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Schedule</a></li>
+            <li><a href="#">Programs</a></li>
+            <li><a href="#">Music</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Listen Live</a></li>
+            <li><a href="#">Contact Us</a></li>
+         </ul>
+      </nav>
+   </header>
+   
+   <div id="container">
+   
+      <section id="main"> 
+         <img src="dlr_logo2.png" alt="DLR" />
+         <h2>DLR Morning Schedule</h2>
+         <p>DLR airs listener-supported public radio in Bismarck, North Dakota from 
+            5:00 a.m. to 10:30 p.m. <br />You can <a href="#">Listen Live</a> to streaming audio 
+            of our broadcast or download programs from our <a href="#">Podcast</a>. 
+            <br />Please refer below for our current morning schedule.</p>
+
+         <!-- Table of Programs -->
+         <table class="programs">
+            <caption>All Times Central</caption>
+            <colgroup>
+               <col class="timeColumn">
+               <col class="wDayColumns" span="5">
+               <col class="wEndColumns" span="2">
+            </colgroup>
+            <thead>
+               <tr>
+                  <th>Time</th>
+                  <th>Monday</th>
+                  <th>Tuesday</th>
+                  <th>Wednesday</th>
+                  <th>Thursday</th>
+                  <th>Friday</th>
+                  <th>Saturday</th>
+                  <th>Sunday</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <th>5:00 a.m.</th>
+                  <td rowspan="4">Dawn Air</td>
+                  <td rowspan="2">Morning Edition</td>
+                  <td rowspan="2">Morning Edition</td>
+                  <td rowspan="2">Morning Edition</td>
+                  <td rowspan="2">Morning Edition</td>
+                  <td rowspan="4">Dawn Air Weekends</td>
+                  <td rowspan="2">Weekend Edition</td>
+               </tr>
+               <tr>
+                  <th>5:30 a.m.</th>
+               </tr>
+               <tr>
+                  <th>6:00 a.m.</th>
+                  <td rowspan="2">Morning Edition</td>
+                  <td rowspan="2">Morning Edition</td>
+                  <td rowspan="2">Morning Edition</td>
+                  <td rowspan="2">Morning Edition</td>
+                  <td rowspan="2">Morning Edition</td>
+                  <td rowspan="2">Weekend Edition</td>
+                  <td rowspan="2">Weekend Edition</td>
+               </tr>
+               <tr>
+                  <th>6:30 a.m.</th>
+               </tr>
+               <tr>
+                  <th>7:00 a.m.</th>
+                  <td rowspan="2">Morning Edition</td>
+                  <td rowspan="2">Morning Edition</td>
+                  <td rowspan="2">Morning Edition</td>
+                  <td rowspan="2">Morning Edition</td>
+                  <td rowspan="2">Morning Edition</td>
+                  <td rowspan="2">Weekend Edition</td>
+                  <td rowspan="2">Weekend Edition</td>
+               </tr>
+               <tr>
+                  <th>7:30 a.m.</th>
+               </tr>
+               <tr>
+                  <th>8:00 a.m.</th>
+                  <td>The Takeaway</td>
+                  <td>The Takeaway</td>
+                  <td>The Takeaway</td>
+                  <td>The Takeaway</td>
+                  <td>The Takeaway</td>
+                  <td>Car Talk</td>
+                  <td>The Moth Radio Hour</td>
+               </tr>
+               <tr>
+                  <th>8:30 a.m.</th>
+                  <td>The Takeaway</td>
+                  <td>The Takeaway</td>
+                  <td>The Takeaway</td>
+                  <td>The Takeaway</td>
+                  <td>The Takeaway</td>
+                  <td>Wait, Wait… Don't Tell Me!</td>
+                  <td>On Being</td>
+               </tr>
+               <tr>
+                  <th>9:00 a.m.</th>
+                  <td rowspan="2">1A</td>
+                  <td rowspan="2">1A</td>
+                  <td rowspan="2">1A</td>
+                  <td rowspan="2">1A</td>
+                  <td rowspan="2">1A</td>
+                  <td>The Splendid Table</td>
+                  <td>The Splendid Table</td>
+               </tr>
+               <tr>
+                  <th>9:30 a.m.</th>
+                  <td>Travel with Rick Steves</td>
+                  <td>The Splendid Table</td>
+               </tr>
+               <tr>
+                  <th>10:00 a.m.</th>
+                  <td>On Point</td>
+                  <td>On Point</td>
+                  <td>On Point</td>
+                  <td>On Point</td>
+                  <td>On Point</td>
+                  <td>Travel with Rick Steves</td>
+                  <td>The Moth Radio Hour</td>
+               </tr>
+               <tr>
+                  <th>10:30 a.m.</th>
+                  <td>On Point</td>
+                  <td>On Point</td>
+                  <td>On Point</td>
+                  <td>On Point</td>
+                  <td>On Point</td>
+                  <td>Wait, Wait… Don't Tell Me!</td>
+                  <td>On Being</td>
+               </tr>
+            </tbody>
+            <tfoot>
+               <tr>
+                  <td colspan="8">Support your Public Radio Station</td>
+               </tr>
+            </tfoot>
+         </table>
+      </section>
+      
+   </div>
+   
+   <footer>
+      DLR &#183; 4300 Magnolia Lane &#183; Bismarck, ND 58504 &#183; (701) 555 - 5611
+   </footer>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 6
+   Review Assignment
+
+   Columns Style Sheet
+   Author: William Hamm
+   Date: 10/21/2024
+*/
+
+/* Column Styles */
+
+/* Mobile-first layout */
+
+@media only screen and (min-width: 641px) {
+    section#main p {
+        column-count: 3;
+        column-gap: 20px;
+        column-rule: 1px solid black;
+    }
+}

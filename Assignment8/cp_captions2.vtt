@@ -1,0 +1,13 @@
+WEBVTT
+
+0.5 --> 5.0
+<v.Title>The Hat Rack Dance</v>
+line:10% align:middle
+
+5.5 --> 9.0
+<v.Subtitle>from <i>Royal Wedding (1951)</i></v>
+line:10% align:middle
+
+01:05.0 --> 01:11.0
+<v.Finish>See more videos at <i>Cinema Penguin</i></v>
+line:80% position:90% align:end
