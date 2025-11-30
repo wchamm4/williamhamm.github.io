@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 5
+   Coding Challenge 3
+
+   Author: William Hamm
+   Date:   11/19/2024
+   Filename: code5-3_print.css
+*/
+
+/* Page size and margin */
+@page {
+   size: 8.5in 11in;
+   margin: 1in;
+}
+
+/* Remove underlining from links */
+a {
+   text-decoration: none;
+}
+
+/* Prevent page breaks in nav elements */
+nav {
+   page-break-inside: avoid;
+}
+
+/* Set line height of list items in nav and ol */
+nav > ol > li {
+   line-height: 0.3in;
+}
+
+/* Display printed hypertext links */
+a::after {
+   content: " [" attr(href) "] ";
+   display: inline-block;
+   margin-left: 20px;
+   word-wrap: break-word;
+}

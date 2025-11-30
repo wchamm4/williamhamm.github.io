@@ -1,0 +1,106 @@
+/* General Styling */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Wrapper to ensure full height and sticky footer */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Content fills the available space */
+.content {
+    flex: 1;
+}
+
+/* Header */
+header {
+    background-color: red;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: black;
+}
+
+/* Navigation Menu */
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: red;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.nav-menu li {
+    text-align: center;
+}
+
+.nav-menu a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+    background-color: white;
+    color: red;
+}
+
+/* Challenge Links Section */
+.challenges-container {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.challenges-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: red;
+}
+
+/* Challenge Links */
+.challenge-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin: 0 40px;
+}
+
+.challenge-link {
+    background-color: red;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.challenge-link:hover {
+    background-color: white;
+    color: red;
+}
+
+/* Footer */
+footer {
+    background-color: red;
+    text-align: center;
+    padding: 10px 0;
+    color: black;
+    margin-top: auto;  /* Ensures footer is pushed to the bottom */
+}

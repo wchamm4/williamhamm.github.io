@@ -1,0 +1,101 @@
+/* General Styling */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Wrapper */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: red;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: black;
+}
+
+/* Navigation Menu */
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: red;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.nav-menu li {
+    text-align: center;
+}
+
+.nav-menu a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+    background-color: white;
+    color: red;
+}
+
+/* Certifications Section */
+.certifications-container {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.certifications-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: red;
+}
+
+/* Certifications List */
+.certifications-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.certifications-list li {
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: left;
+    transition: background-color 0.3s ease;
+}
+
+.certifications-list li:hover {
+    background-color: white;
+    color: red;
+}
+
+/* Footer */
+footer {
+    background-color: red;
+    text-align: center;
+    padding: 10px 0;
+    color: black;
+}
